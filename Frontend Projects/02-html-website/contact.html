@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Basic HTML Website</title>
+
+    <meta 
+        name="description" 
+        content="Contact page where you can contact me and talk about food."
+    >
+    <meta
+        name="keywords"
+        content="Contact, message, Frontend, HTML"
+    >
+    <meta
+        name="author"
+        content="Cosmin"
+    >
+</head>
+<body>
+     <header>
+        <nav>
+            <p class="logo">Cosmin</p>
+
+            <div>
+                <ul class="navigation">
+                    <a href="index.html">Home</a>
+                    <a href="projects.html">Project</a>
+                    <a href="articles.html">Article</a>
+                    <a href="contact.html">Contact</a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contact</h1>
+        <p>Have a question about my projects or want to share feedback? Find me on GitHub.</p>
+        <a href="https://github.com/Chemicos">Visit my GitHub profile</a>
+
+        <form action="submit" method="post">
+            <h2>Contact Form</h2>
+            <p>Sending messages won't work but it's for example.</p>
+
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required>
+
+            </div>
+            <br>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <br>
+            <div>
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="5" required></textarea>
+            </div>
+            <br>
+            <button type="submit">Send Message</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>@ 2026 Cosmin. All rights reserved.</p>
+    </footer>
+</body>
+</html>
