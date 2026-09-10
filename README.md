@@ -7,3 +7,4 @@ The goal of this repository is to document my progress, practice new concepts, a
 # Project List
 
 - [Single-Page CV](https://roadmap.sh/projects/single-page-cv)
+- [Basic HTML Website](https://roadmap.sh/projects/basic-html-website)
