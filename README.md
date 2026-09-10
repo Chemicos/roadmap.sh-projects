@@ -8,3 +8,4 @@ The goal of this repository is to document my progress, practice new concepts, a
 
 - [Single-Page CV](https://roadmap.sh/projects/single-page-cv)
 - [Basic HTML Website](https://roadmap.sh/projects/basic-html-website)
+- [Pricing Comparison Table](https://roadmap.sh/projects/pricing-comparison-table)
